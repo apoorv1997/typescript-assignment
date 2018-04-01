@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Details</title>
+</head>
+
+<body>
+    <script src="youtube.js"></script>
+    <form method="GET">
+        Name:- <input type="text" id="name" value="" required/><br> No of Likes:- <input type="text" id="likes" value="" required/> <br>Total No of views:- <input type="text" id="views" value="" required/><br> Published by:- <input type="text" id="published"
+            value="" required/>
+        <br><select id="liked">
+                <option value="true">Yes</option>
+                <option value="False">No</option>
+        </select>
+        <br><input type="submit" onclick="getDetails()" />
+
+    </form>
+</body>
+
+</html>
